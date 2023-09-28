@@ -319,16 +319,15 @@ a {
 }
 
 .Features .list {
-    /* width: 100%; */
-    flex: 1;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
 
 .Features .item {
     background: #fff;
-    flex: 1;
+    flex-grow: 1;
     border-radius: 12px;
 }
 
